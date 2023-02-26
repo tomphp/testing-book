@@ -1,3 +1,3 @@
-<p class="text-xl text-slate-700 font-light pb-5">
+<p class="text-xl text-slate-700 font-light mt-5">
   <slot/>
 </p>

@@ -10,4 +10,8 @@
   a {
     @apply text-emerald-700 hover:text-emerald-600 hover:underline;
   }
+
+  p {
+    @apply mt-3;
+  }
 }

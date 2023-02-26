@@ -12,3 +12,9 @@
     all checks succeed.
   </p>
 </Term>
+
+<Term anchor="green-field" term="Green Field">
+  <p>
+    A green field software project is a brand new project that is starting from scratch.
+  </p>
+</Term>
