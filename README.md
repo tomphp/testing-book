@@ -1,3 +1,3 @@
 # Testing Strategies
 
-[Start Here](./index.md)
+[Start Here](./book/index.md)
