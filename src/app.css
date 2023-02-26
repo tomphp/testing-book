@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-stone-600 font-sans leading-relaxed;
+  }
+
+  a {
+    @apply text-emerald-700 hover:text-emerald-600 hover:underline;
+  }
+}
