@@ -6,7 +6,7 @@
 <div class="flex flex-col h-screen">
   <HeaderBanner />
 
-  <main role="main" class="p-5 mb-auto">
+  <main class="p-5 mb-auto">
     <slot />
   </main>
 

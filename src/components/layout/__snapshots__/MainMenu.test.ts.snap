@@ -1,0 +1,150 @@
+// Vitest Snapshot v1
+
+exports[`MainMenu snapshot 1`] = `
+<body>
+  <div>
+    <nav
+      class="pl-5"
+      role="menu"
+    >
+      <ul
+        class="flex"
+      >
+        <li
+          class="mr-0 font-bold text-center p-2"
+        >
+          <div
+            class="flex justify-center"
+          >
+            <div>
+              <div
+                class="relative"
+                data-te-dropdown-ref=""
+              >
+                <a
+                  aria-expanded="false"
+                  class="flex text-sm items-center whitespace-nowrap rounded bg-primary px-6 pt-2.5 pb-2 font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-white hover:text-emerald-500 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] motion-reduce:transition-none"
+                  data-te-dropdown-toggle-ref=""
+                  data-te-ripple-color="light"
+                  data-te-ripple-init=""
+                  id="dropdownMenuButton2"
+                  type="button"
+                >
+                  No Link or Children
+                   
+                </a>
+                 
+              </div>
+            </div>
+          </div>
+        </li>
+        <!--&lt;Item&gt;-->
+        <li
+          class="mr-0 font-bold text-center p-2"
+        >
+          <div
+            class="flex justify-center"
+          >
+            <div>
+              <div
+                class="relative"
+                data-te-dropdown-ref=""
+              >
+                <a
+                  aria-expanded="false"
+                  class="flex text-sm items-center whitespace-nowrap rounded bg-primary px-6 pt-2.5 pb-2 font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-white hover:text-emerald-500 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] motion-reduce:transition-none"
+                  data-te-dropdown-toggle-ref=""
+                  data-te-ripple-color="light"
+                  data-te-ripple-init=""
+                  href="/foo"
+                  id="dropdownMenuButton2"
+                  type="button"
+                >
+                  Link Without Children
+                   
+                </a>
+                 
+              </div>
+            </div>
+          </div>
+        </li>
+        <!--&lt;Item&gt;-->
+        <li
+          class="mr-0 font-bold text-center p-2"
+        >
+          <div
+            class="flex justify-center"
+          >
+            <div>
+              <div
+                class="relative"
+                data-te-dropdown-ref=""
+              >
+                <a
+                  aria-expanded="false"
+                  class="flex text-sm items-center whitespace-nowrap rounded bg-primary px-6 pt-2.5 pb-2 font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-white hover:text-emerald-500 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] motion-reduce:transition-none"
+                  data-te-dropdown-toggle-ref=""
+                  data-te-ripple-color="light"
+                  data-te-ripple-init=""
+                  href="/bar"
+                  id="dropdownMenuButton2"
+                  type="button"
+                >
+                  Link WithChildren
+                   
+                  <span
+                    class="ml-2 w-2"
+                  >
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <!--&lt;ArrowDown&gt;-->
+                  </span>
+                </a>
+                 
+                <ul
+                  aria-labelledby="dropdownMenuButton2"
+                  class="absolute z-[1000] float-left m-0 min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg [&[data-te-dropdown-show]]:block hidden"
+                  data-te-dropdown-menu-ref=""
+                >
+                  <li>
+                    <a
+                      class="block w-full whitespace-nowrap bg-transparent py-2 px-4 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400"
+                      data-te-dropdown-item-ref=""
+                      href="/bar/1"
+                    >
+                      Child 1
+                    </a>
+                  </li>
+                  <!--&lt;SubItem&gt;-->
+                  <li>
+                    <a
+                      class="block w-full whitespace-nowrap bg-transparent py-2 px-4 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400"
+                      data-te-dropdown-item-ref=""
+                      href="/bar/2"
+                    >
+                      Child 2
+                    </a>
+                  </li>
+                  <!--&lt;SubItem&gt;-->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!--&lt;Item&gt;-->
+      </ul>
+    </nav>
+    <!--&lt;MainMenu&gt;-->
+  </div>
+</body>
+`;
