@@ -1,0 +1,14 @@
+name: Tests
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+
+jobs:
+  test-actions:
+    uses: ./.github/workflows/test.yml
+
+  build-and-release:
+    if: github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/deploy.yml

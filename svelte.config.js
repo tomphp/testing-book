@@ -18,7 +18,10 @@ const config = {
 			precompress: false,
 			strict: true,
 			trailingSlash: 'always'
-		})
+		}),
+		paths: {
+			base: process.env.NODE_ENV === "production" ? "/testing-book" : "",
+		},
 	}
 };
 

@@ -1,24 +1,25 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import MainMenu from './MainMenu.svelte';
 	import type { ItemProps } from './MainMenu.svelte';
 
 	const mainMenuItems: ItemProps[] = [
-		{ link: '/', title: 'Home' },
+		{ link: `${base}/`, title: 'Home' },
 		{
 			title: 'Theory',
 			children: [
-				{ link: '/theory/testing-layers', title: 'Testing Layers' },
-				{ link: '/theory/anatomy-of-a-test', title: 'Anatomy of a Test' }
+				{ link: `${base}/theory/testing-layers`, title: 'Testing Layers' },
+				{ link: `${base}/theory/anatomy-of-a-test`, title: 'Anatomy of a Test' }
 			]
 		},
 		{
-			link: '/software-testing',
-			title: 'Software Testing',
-			children: [{ link: '/software-testing/unit-tests', title: 'Unit Tests' }]
+			link: `${base}/software-testing`,
+			title: `Software Testing`,
+			children: [{ link: `${base}/software-testing/unit-tests`, title: 'Unit Tests' }]
 		},
-		{ link: '/infrastructure-testing', title: 'Infrastructure Testing' },
-		{ link: '/security-testing', title: 'Security Testing' },
-		{ link: '/glossary', title: 'Glossary' }
+		{ link: `${base}/infrastructure-testing`, title: 'Infrastructure Testing' },
+		{ link: `${base}/security-testing`, title: 'Security Testing' },
+		{ link: `${base}/glossary`, title: 'Glossary' }
 	];
 </script>
 

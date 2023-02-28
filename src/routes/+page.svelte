@@ -1,4 +1,5 @@
 <script>
+	import {base} from '$app/paths';
 	import LeadParagraph from '../components/document/LeadParagraph.svelte';
 	import Section from '../components/document/Section.svelte';
 	import Todo from '../components/document/Todo.svelte';
@@ -14,7 +15,7 @@
 		When building <em>software systems</em>, we want enough tests to give us the
 		<strong>confidence</strong>
 		to deploy to production. While
-		<a href="/glossary#continuous-deployment">Continuous Deployment</a> might not be your end goal, testing
+		<a href="{base}/glossary#continuous-deployment">Continuous Deployment</a> might not be your end goal, testing
 		to a level where you have enough confidence to do so is a worthy aspiration.
 	</p>
 </Section>
@@ -26,7 +27,7 @@
 	</p>
 
 	<ul class="list-disc list-inside p-5 text-lg">
-		<li><a href="/software-testing">Software Testing</a></li>
+		<li><a href="{base}/software-testing">Software Testing</a></li>
 		<li>User Interface Testing <Todo /></li>
 		<li>Integration Testing <Todo /></li>
 		<li>Security Testing <Todo /></li>
