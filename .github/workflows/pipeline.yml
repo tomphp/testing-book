@@ -6,9 +6,11 @@ on:
   pull_request:
 
 jobs:
-  test-actions:
+  test:
     uses: ./.github/workflows/test.yml
 
-  build-and-release:
+  deploy:
+    needs:
+      - test
     if: github.ref == 'refs/heads/main'
     uses: ./.github/workflows/deploy.yml
