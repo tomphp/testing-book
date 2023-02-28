@@ -1,7 +1,7 @@
 <script>
-	import {gherkin, typescript} from "svelte-highlight/languages";
+	import { gherkin, typescript } from 'svelte-highlight/languages';
 	import Highlight from 'svelte-highlight';
-	import github from "svelte-highlight/styles/github";
+	import github from 'svelte-highlight/styles/github';
 	import MainTitle from '../../../components/document/MainTitle.svelte';
 	import Section from '../../../components/document/Section.svelte';
 	import Example from '../../../components/document/Example.svelte';
@@ -42,22 +42,23 @@
 	<Example>
 		<Highlight
 			language={typescript}
-			code="{`it('does a thing', () => {
+			code={`it('does a thing', () => {
 	setupTheThing();
 	const result = runTheThing();
 	expect(result).toBe('correct');
-});`}" />
+});`}
+		/>
 	</Example>
 
 	<Example>
 		Acceptance test (gherkin)
 		<Highlight
 			language={gherkin}
-			code=
-"Scenario: Happiness
+			code="Scenario: Happiness
 	Given nothing bad has happened
 	When I reflect on my own emotions
-	Then I am happy" />
+	Then I am happy"
+		/>
 	</Example>
 
 	<Example>
