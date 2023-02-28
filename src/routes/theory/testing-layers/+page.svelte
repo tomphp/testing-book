@@ -1,5 +1,5 @@
 <script>
-	import {base} from '$app/paths';
+	import { base } from '$app/paths';
 	import MainTitle from '../../../components/document/MainTitle.svelte';
 	import Example from '../../../components/document/Example.svelte';
 	import Important from '../../../components/document/Important.svelte';
@@ -70,9 +70,10 @@
 <h3>Legacy Systems</h3>
 
 <p>
-	When building <a href="{base}/glossary#green-field">green-field</a> systems, you have the privilege of being
-	able to create the layers of testing from the ground up while also designing the system to be testable.
-	However, we often work with legacy systems instead, where creating automated tests takes a lot of work.
+	When building <a href="{base}/glossary#green-field">green-field</a> systems, you have the privilege
+	of being able to create the layers of testing from the ground up while also designing the system to
+	be testable. However, we often work with legacy systems instead, where creating automated tests takes
+	a lot of work.
 </p>
 
 <p>

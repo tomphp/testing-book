@@ -1,5 +1,5 @@
 <script>
-	import {base} from '$app/paths';
+	import { base } from '$app/paths';
 	import LeadParagraph from '../components/document/LeadParagraph.svelte';
 	import Section from '../components/document/Section.svelte';
 	import Todo from '../components/document/Todo.svelte';
@@ -15,8 +15,8 @@
 		When building <em>software systems</em>, we want enough tests to give us the
 		<strong>confidence</strong>
 		to deploy to production. While
-		<a href="{base}/glossary#continuous-deployment">Continuous Deployment</a> might not be your end goal, testing
-		to a level where you have enough confidence to do so is a worthy aspiration.
+		<a href="{base}/glossary#continuous-deployment">Continuous Deployment</a> might not be your end goal,
+		testing to a level where you have enough confidence to do so is a worthy aspiration.
 	</p>
 </Section>
 

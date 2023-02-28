@@ -20,8 +20,8 @@ const config = {
 			trailingSlash: 'always'
 		}),
 		paths: {
-			base: process.env.NODE_ENV === "production" ? "/testing-book" : "",
-		},
+			base: process.env.NODE_ENV === 'production' ? '/testing-book' : ''
+		}
 	}
 };
 
