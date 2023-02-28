@@ -4,11 +4,11 @@
 	import LeadParagraph from '../../../components/document/LeadParagraph.svelte';
 </script>
 
-<MainTitle>Unit Tests</MainTitle>
+<MainTitle>Testing Dependencies</MainTitle>
 
 <LeadParagraph>
-	Unit tests are how we test the logic in our code. They test the code extensively in isolation to
-	ensure that the local logic is correct.
+	We often utilise third-party libraries in our code to perform common tasks that we don't want to
+	re-invent for ourselves. Here we will discuss how to test code which utilises such libraries.
 </LeadParagraph>
 
 <Todo />

@@ -15,7 +15,11 @@
 		{
 			link: `${base}/software-testing`,
 			title: `Software`,
-			children: [{ link: `${base}/software-testing/unit-tests`, title: 'Unit Tests' }]
+			children: [
+				{ link: `${base}/software-testing/unit-tests`, title: 'Unit Tests' },
+				{ link: `${base}/software-testing/testing-dependencies`, title: 'Testing Dependencies' },
+				{ link: `${base}/software-testing/testing-integrations`, title: 'Testing Integrations' }
+			]
 		},
 		{ link: `${base}/infrastructure-testing`, title: 'Infrastructure' },
 		{ link: `${base}/security-testing`, title: 'Security' },
