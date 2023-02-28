@@ -14,11 +14,11 @@
 		},
 		{
 			link: `${base}/software-testing`,
-			title: `Software Testing`,
+			title: `Software`,
 			children: [{ link: `${base}/software-testing/unit-tests`, title: 'Unit Tests' }]
 		},
-		{ link: `${base}/infrastructure-testing`, title: 'Infrastructure Testing' },
-		{ link: `${base}/security-testing`, title: 'Security Testing' },
+		{ link: `${base}/infrastructure-testing`, title: 'Infrastructure' },
+		{ link: `${base}/security-testing`, title: 'Security' },
 		{ link: `${base}/glossary`, title: 'Glossary' }
 	];
 </script>

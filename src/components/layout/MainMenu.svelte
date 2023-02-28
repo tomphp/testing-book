@@ -15,7 +15,7 @@
 </script>
 
 <nav role="menu" class="pl-5">
-	<ul class="flex">
+	<ul class="lg:flex">
 		{#each items as { title, link, children }}
 			<MainMenuItem {title} {link} {children} />
 		{/each}

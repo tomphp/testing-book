@@ -57,8 +57,8 @@
 
 <Important>
 	<p>
-		We can only use a few integration tests because we are building on the confidence that
-		everything has been tested at the lower layers!
+		The only reason we can get away with using a few integration tests is because we are building on the confidence that
+		everything has been tested at the lower layers.
 	</p>
 </Important>
 

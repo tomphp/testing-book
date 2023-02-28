@@ -26,8 +26,8 @@
 	$: href = link;
 </script>
 
-<li class="mr-0 font-bold text-center p-2">
-	<div class="flex justify-center">
+<li class="font-bold text-center p-2">
+	<div class="justify-center">
 		<div on:mouseenter={() => openSubmenu()} on:mouseleave={() => closeSubmenu()}>
 			<div class="relative" data-te-dropdown-ref>
 				<a
@@ -38,7 +38,7 @@
               whitespace-nowrap
               rounded
               bg-primary
-              px-6
+              lg:px-6
               pt-2.5
               pb-2
               font-medium
