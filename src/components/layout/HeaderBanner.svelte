@@ -16,6 +16,7 @@
 			link: `${base}/software-testing`,
 			title: `Software`,
 			children: [
+				{ link: `${base}/software-testing/static-analysis`, title: 'Static Analysis' },
 				{ link: `${base}/software-testing/unit-tests`, title: 'Unit Tests' },
 				{ link: `${base}/software-testing/testing-dependencies`, title: 'Testing Dependencies' },
 				{ link: `${base}/software-testing/testing-integrations`, title: 'Testing Integrations' }
@@ -28,6 +29,8 @@
 </script>
 
 <header class="bg-gradient-to-b	from-green-600 to-green-700 shadow-xl text-slate-200">
-	<h1 class="text-4xl md:text-6xl font-bold p-5">Testing Strategies</h1>
-	<MainMenu items={mainMenuItems} />
+	<div class="max-w-6xl mx-auto">
+		<h1 class="text-4xl md:text-6xl font-bold p-5">Testing Strategies</h1>
+		<MainMenu items={mainMenuItems} />
+	</div>
 </header>
